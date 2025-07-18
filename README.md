@@ -1,6 +1,6 @@
-# 🧠 Transformers_Research: Memorization Capacity in Neural Networks
+# 🧠 Memorization Capabilities of Neural Networks
 
-**Investigating Scaling Laws in Transformers and MLPs on Random Sequence Memorization Tasks**  
+**Understanding Scaling Laws in Autoregressive and Sequence-To-Sequence Learning**  
 By Niranjan Vijaya Krishnan, Christine Guo, Diya Hundiwala  
 📄 [Read the full paper here](https://niruvk.github.io/Transformers_Research/Transformers_Research.pdf)
 
