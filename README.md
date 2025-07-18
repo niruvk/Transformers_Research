@@ -1,6 +1,6 @@
-# 🧠 Memorization Capabilities of Neural Networks
+# 🧠 Memorization Capabilities of Neural Networks: Understanding Scaling Laws in Autoregressive and Sequence-To-Sequence Learning
 
-**Understanding Scaling Laws in Autoregressive and Sequence-To-Sequence Learning**  
+**Investigating Scaling Laws in Transformers and MLPs on Random Sequence Memorization Tasks**  
 By Niranjan Vijaya Krishnan, Christine Guo, Diya Hundiwala  
 📄 [Read the full paper here](https://niruvk.github.io/Transformers_Research/Transformers_Research.pdf)
 
@@ -107,16 +107,6 @@ Each model configuration is evaluated on:
 
 ---
 
-## 📈 Sample Visualization
-
-> ![Memorization vs. Depth (MLPs)](results/figures/mlp_memorization.png)  
-_Memorization drops rapidly as MLPs gain depth at fixed parameter counts_
-
-> ![Memorization vs. Heads (Transformers)](results/figures/transformer_heads.png)  
-_More attention heads help transformer models store more random mappings_
-
----
-
 ## ⚙️ Setup
 
 ### 1. Install Dependencies
@@ -158,26 +148,3 @@ python threshold_search/binary_search.py --model mlp --params 30000
   url={https://github.com/niruvk/Transformers_Research}
 }
 ```
-
----
-
-## 🔮 Future Work
-
-- Apply to **larger vocabularies** and **longer sequences**
-- Investigate **causal vs. bidirectional** attention
-- Explore memorization dynamics during training (e.g., grokking, phase transitions)
-- Use parameter-sharing and LoRA to compress models without loss in threshold
-
----
-
-## 🙏 Acknowledgments
-
-This work builds upon theoretical insights from:
-- Park et al. (2021)
-- Vardi & Shamir (2022)
-- Kim et al. (2023)
-- Mahdavi et al. (2024)
-
-Special thanks to the [Hugging Face](https://huggingface.co) ecosystem and PyTorch for enabling rapid experimentation.
-
----
