@@ -1,4 +1,4 @@
-# 🧠 Memorization Capabilities of Neural Networks: Understanding Scaling Laws in Autoregressive and Sequence-To-Sequence Learning
+# Memorization Capabilities of Neural Networks: Understanding Scaling Laws in Autoregressive and Sequence-To-Sequence Learning
 
 **Investigating Scaling Laws in Transformers and MLPs on Random Sequence Memorization Tasks**  
 By Niranjan Vijaya Krishnan, Christine Guo, Diya Hundiwala  
